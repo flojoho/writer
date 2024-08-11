@@ -6,7 +6,7 @@
 :root {
   --light-gray: #DDDDDD;
   --dark-gray: #111111;
-  --gray: #222222;
+  --gray: hsl(0, 0%, 18%); /* #2c2c2c; */
 }
 
 body {
