@@ -22,20 +22,13 @@ body {
   align-items: center;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  /*max-width: 50rem;*/
-}
-
 textarea {
   border: none;
   background-color: var(--black);
   color: var(--white);
+  width: 100vw;
   height: 100vh;
+  resize: none;
   outline: none;
   padding: 2.4rem calc((100vw - 36rem)/2);
   text-align: center;
